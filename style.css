@@ -1,0 +1,61 @@
+body {
+   font-family: cursive;
+   background-color: plum;
+   color: black;
+   transition: transform 0.3s ease; /* Animasi perubahan transformasi */
+   cursor: pointer; /* Menunjukkan kursor saat elemen dapat di-klik */
+}
+
+header, nav, section, footer {
+   margin: 20px;
+}
+
+header {
+   background-color: rgb(202, 198, 199);
+   color: black;
+   text-align: center;
+   padding: 20px;
+}
+
+nav {
+   text-align: center;
+}
+
+nav ul {
+   list-style-type: none;
+}
+
+nav ul li {
+   display: inline;
+   margin-right: 10px;
+}
+
+nav a {
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+
+nav a:hover {
+   color: black;
+}
+
+section {
+   margin-top: 30px;
+   padding: 20px;
+   background-color: white;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgb(202, 198, 199);
+}
+
+section h2 {
+   color: black;
+}
+
+footer {
+   background-color: rgb(202, 198, 199);
+   color: black;
+   text-align: center;
+   padding: 10px;
+}
